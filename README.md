@@ -61,3 +61,4 @@ We use GitHub Actions for continuous integration (CI) in this repository. The CI
 2. **Set up Node.js**: Uses the `actions/setup-node@v2` action to set up Node.js version 14.
 3. **Install dependencies**: Runs `npm install` to install the necessary npm dependencies.
 4. **Run tests**: Runs `npm test` to execute the test suite.
+5. **Deploy application**: Runs the deployment steps to deploy the application after the tests pass.

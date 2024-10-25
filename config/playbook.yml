@@ -1,0 +1,7 @@
+- name: Deploy application
+  hosts: all
+  tasks:
+    - name: Set up deployment environment
+      shell: echo "Setting up deployment environment..."
+    - name: Deploy application
+      shell: echo "Deploying application..."
