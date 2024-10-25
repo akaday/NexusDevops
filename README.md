@@ -50,3 +50,14 @@ Continuously test the interface and refine it based on user feedback.
 - Microsoft Bot Framework
 
 Ready to dive into building an intuitive NLI? The possibilities are vast and exciting! 🚀
+
+## CI Pipeline Setup
+
+We use GitHub Actions for continuous integration (CI) in this repository. The CI pipeline is configured to run on every push and pull request.
+
+### Pipeline Steps
+
+1. **Checkout code**: Uses the `actions/checkout@v2` action to checkout the repository code.
+2. **Set up Node.js**: Uses the `actions/setup-node@v2` action to set up Node.js version 14.
+3. **Install dependencies**: Runs `npm install` to install the necessary npm dependencies.
+4. **Run tests**: Runs `npm test` to execute the test suite.
