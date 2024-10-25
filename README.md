@@ -60,5 +60,11 @@ We use GitHub Actions for continuous integration (CI) in this repository. The CI
 1. **Checkout code**: Uses the `actions/checkout@v2` action to checkout the repository code.
 2. **Set up Node.js**: Uses the `actions/setup-node@v2` action to set up Node.js version 14.
 3. **Install dependencies**: Runs `npm install` to install the necessary npm dependencies.
-4. **Run tests**: Runs `npm test` to execute the test suite.
-5. **Deploy application**: Runs the deployment steps to deploy the application after the tests pass.
+4. **Build application**: Runs `npm run build` to build the application.
+5. **Run tests**: Runs `npm test` to execute the test suite.
+6. **Deploy application**: Runs the deployment steps to deploy the application after the tests pass.
+
+### Deployment Steps
+
+1. **Set up deployment environment**: Prepares the environment for deployment.
+2. **Deploy application**: Executes the deployment process to make the application live.
